@@ -168,6 +168,26 @@ body {
     width: 100vw;
 }
 
+
+/* cv download button */
+
+.btn {
+    background-color: lightBlue;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+
+/* Darker background on mouse-over */
+
+.btn:hover {
+    background-color: DodgerBlue;
+}
+
 .button {
     border: 2px solid #fff;
     box-sizing: inherit;
