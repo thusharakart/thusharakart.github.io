@@ -182,7 +182,7 @@ $(function() {
         e.preventDefault();
 
         $.ajax({
-            url: 'https://formspree.io/mattwilliams85@gmail.com',
+            url: 'https://formspree.io/thusharakart@gmail.com',
             method: 'POST',
             data: { message: $('form').serialize() },
             dataType: 'json'

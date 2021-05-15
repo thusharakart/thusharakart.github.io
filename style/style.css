@@ -185,7 +185,7 @@ body {
 /* Darker background on mouse-over */
 
 .btn:hover {
-    background-color: DodgerBlue;
+    background-color: #04c2c9;
 }
 
 .button {
@@ -1124,7 +1124,7 @@ footer .icon-wrap .mdi {
     text-align: center;
 }
 
-footer .icon-wrap .mdi.mdi-codepen {
+footer .icon-wrap .mdi.mdi-github {
     font-size: 20pt;
 }
 
