@@ -343,7 +343,7 @@ nav .link-wrap div:first-child {
 }
 
 nav .link-wrap div:hover {
-    color: #e31b6d;
+    color: #1b72e3;
 }
 
 nav .mdi-menu {
@@ -356,7 +356,7 @@ nav .mdi-menu {
 }
 
 nav .active {
-    color: #e31b6d;
+    color: #1b72e3;
 }
 
 .carousel-wrap {
@@ -490,7 +490,7 @@ nav .active {
 }
 
 .modal-wrap .button {
-    background: #e31b6d;
+    background: #1b72e3;
     border: 0;
     bottom: 20px;
     color: #fff;
@@ -512,7 +512,7 @@ nav .active {
 
 .modal-wrap .button:hover {
     background: #fff;
-    color: #e31b6d;
+    color: #1b72e3;
 }
 
 .modal-wrap .carousel {
@@ -717,11 +717,11 @@ section:nth-of-type(2) .bar .tag {
 }
 
 section:nth-of-type(2) .bar.secondary {
-    background-color: #c51675;
+    background-color: #1b72e3;
 }
 
 section:nth-of-type(2) .bar.secondary .tag {
-    background-color: #e31b6d;
+    background-color: #1b72e3;
 }
 
 section:nth-of-type(2) .bar span {
@@ -755,7 +755,7 @@ section:nth-of-type(3) .float-bar {
     left: 30px;
     position: absolute;
     top: 0;
-    background: #e31b6d;
+    background: #1b72e3;
     border-radius: 1px;
     height: 25px;
     margin: auto 0;
@@ -807,7 +807,7 @@ section:nth-of-type(3) #gallery .button {
     left: 0;
     position: absolute;
     right: 0;
-    border: 2px solid #e31b6d;
+    border: 2px solid #1b72e3;
     font-size: 13pt;
     margin: 0 auto;
     padding: 7px 0;
@@ -824,7 +824,7 @@ section:nth-of-type(3) #gallery .mix .waypoint {
 }
 
 section:nth-of-type(3) #gallery .mix .button:hover {
-    background: #e31b6d;
+    background: #1b72e3;
     color: #fff;
 }
 
