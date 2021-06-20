@@ -49,10 +49,11 @@ $(document).ready(function () {
 				"MyStand is a crowd-funding, media sharing website, that has you donating actions instead of money out of your pocket. Single page App built with Node.js on Sails and Angular 2.0. Features social media sharing and large scale crowd-funding.",
 		},
 		never: {
-			title: "NeverSurrender",
-			tag: "ALS AWARENESS.",
+			title: "Crossword Game",
+			tag: "REACT JS GAME FOR FACEBOOK",
 			detail:
-				"NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.",
+				"A instant game developed for facebook using React.js. Mainly targeted Children. Users can choose a puzzle and play.",
+			link: "https://crossword-sigma.vercel.app/",
 		},
 		themall: {
 			title: "The Mall",
