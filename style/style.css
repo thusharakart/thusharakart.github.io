@@ -292,6 +292,11 @@ body {
     height: 100px;
 }
 
+.intro {
+    font-size: 16pt;
+    color: #FFFFFF
+}
+
 nav {
     bottom: 0;
     left: 0;
@@ -1441,6 +1446,7 @@ footer .footnote .highlight {
         width: 270px;
     }
 }
+
 
 
 /*# sourceMappingURL=style.css.map */
