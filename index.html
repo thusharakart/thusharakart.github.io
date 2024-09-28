@@ -1,0 +1,409 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Rusiru Thushara</title>
+  <meta name="author" content="Rusiru Thushara">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="static/images/favicon.ico">
+  <script src="static/js/nn.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <table style="width:90%; margin:auto;">
+      <tr>
+        <td><a href="#profile">Profile</a></td>
+        <td><a href="#news">News</a></td>
+        <td><a href="#research">Research</a></td>
+        <td><a href="#experience">Experience</a></td>
+        <td><a href="#education">Education</a></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="content"> <!-- Added margin to offset fixed header -->
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tbody>
+        <tr style="padding:0px">
+          <td style="padding:0px">
+            <table style="width:100%; max-width:800px; border:0; border-spacing:0; border-collapse:collapse; margin:auto;">
+              <tbody>
+                <tr id="profile">
+                  <td style="width:30%; padding:15px; text-align: center; vertical-align: top;">
+                    <!-- Image in a circle -->
+                    <a href="static/images/RUSIRU.jpeg">
+                      <img src="static/images/RUSIRU.jpeg" alt="profile photo" style="width:90%; height:auto; aspect-ratio: 1 / 1.1; max-width: 200px; max-height: auto; min-width: 100px; border-radius:50%; object-fit:cover;">
+                    </a>
+                    <p id="namechange" align="center">
+                      <span id="a"><name>Rusiru Thushara</name></span> 
+                    </p>
+                    <!-- Links under the image -->
+                    <p style="text-align:center">
+                      <a href="mailto:thusharakart@gmail.com">Email</a> &nbsp;/&nbsp;
+                      <a href="https://thusharakart.github.io/resume/cv.pdf">CV</a> &nbsp;/&nbsp;
+                      <a href="https://scholar.google.com/citations?user=rWAVq90AAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
+                      <a href="https://www.linkedin.com/in/rusiru-thushara">LinkedIn</a> &nbsp;/&nbsp;
+                      <a href="https://github.com/thusharakart">Github</a>
+                    </p>
+                    
+                  </td>
+                  <td style="width:70%; padding:5px; vertical-align: top;">
+                    <!-- Text content -->
+                    <p style="text-align:justify">
+                      Rusiru is currently pursuing an MSc in Computer Vision at 
+                      <a href="https://mbzuai.ac.ae" style="color: #9f268f;">MBZUAI</a>, working with 
+                      <a href="https://salman-h-khan.github.io">Prof. Salman Khan</a> and 
+                      <a href="https://zhiqiangshen.com/">Dr. Zhiqang Shen</a>.
+                      He completed his MS internship as a Research Assistant under 
+                      <a href="https://www.di.ens.fr/~laptev/">Prof. Ivan Laptev</a>, working with 
+                      <a href="https://jwbian.net/">Dr. Jiawang Bain</a> on 3D reconstruction using the Unitree Go2 robot.
+                      Before that, he was a remote Research Fellow at 
+                      <a href="https://www.harvard.edu/" style="color: #9f268f;">Harvard University</a>, working with 
+                      <a href="https://dushan.mit.edu/">Dr. Dushan Wadduwage</a> and collaborated with 
+                      <a href="https://be.mit.edu/directory/bevin-p-engelward">Prof. Bevin P Engelward</a>.
+                    </p>
+                  
+                    <p style="text-align:justify">
+                      He completed his BSc in Computer Engineering with first-class honours at the <a href="https://www.pdn.ac.lk/" style="color: #9f268f;">University of Peradeniya</a>.
+                    </p>
+                    <p style="text-align:justify">
+                        He is particularly interested in vision-language modeling and 3D vision.
+                    </p>
+
+                    <!-- <p style="text-align:justify; color:red;">
+                      <b>UPDATE:</b> Applying for PhD positions for the Fall 2025 intake.
+                    </p>  -->
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- News Section -->
+            <hr style="border: 0; height: 2px; background-color: #ccc; width: 90%; margin: 5px auto;">
+            <table id="news" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <!-- Neural Network -->
+                <!-- <tr>
+                  <td>
+                  <div id="canvas-container" class="canvas-container"></div>
+                  </td>
+                </tr> -->
+                <tr>
+                  <td style="width:100%;vertical-align:middle">
+                    <heading>News</heading>
+                    <p style="text-align:justify">
+                      Here are some of the recent updates in my academic journey.
+                    </p>
+                    <div class="timeline-container">
+                      <div class="timeline">
+                          <div class="fixed-news">
+                              <div class="timeline-item"><strong>[Sep 2024]</strong> &nbsp;&nbsp;Web2Code paper was accepted at NeurIPS 2024.</div>
+                              <div class="timeline-item"><strong>[June 2024]</strong> &nbsp;&nbsp;Started Internship as an Research Assistant under Prof. Ivan Laptev.</div>
+                              <div class="timeline-item"><strong>[June 2024]</strong> &nbsp;&nbsp;Released the paper Web2Code.<a href="https://arxiv.org/abs/2406.20098">URL</a></div>
+                              <div class="timeline-item"><strong>[Nov 2023]</strong> &nbsp;&nbsp;Released the paper PG-Video-LLaVA. <a href="https://arxiv.org/abs/2311.13435">URL</a></div>
+                              <div class="timeline-item"><strong>[Aug 2023]</strong> &nbsp;&nbsp;Admitted MBZUAI with a full scholarship for an MSc. in Computer Vision.</div>
+                          </div>
+                          <div class="scrollable-news">
+                              <div class="timeline-item"><strong>[Aug 2023]</strong> &nbsp;&nbsp;Paper acceptance at IEEE 17th International Conference on Industrial and Information Systems (ICIIS). <a href="https://ieeexplore.ieee.org/abstract/document/10253565">URL</a></div>
+                              <div class="timeline-item"><strong>[Feb 2023]</strong> &nbsp;&nbsp;Graduated with a BSc. (Hons.) in Computer Engineering with first class honours from the University of Peradeniya.</div>
+                              <div class="timeline-item"><strong>[Nov 2016]</strong> &nbsp;&nbsp;Won a Gold Medal at the Sri Lankan Physics Olympiad. (National Rank - 2nd) </div>
+                          </div>
+                      </div>
+                  </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- Research Section -->
+            <hr style="border: 0; height: 2px; background-color: #ccc; width: 90%; margin: 5px auto;">
+            <table id="research" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <tr>
+                  <td style="width:100%;vertical-align:middle">
+                    <heading>Research</heading>
+                    <p style="text-align:justify" >
+                      Rusiru is fascinated by the rapid advancements in computer vision, particularly how models are increasingly able to perceive and understand the world like humans do. 
+                      This progress, especially in the field of robotics, is enabling machines to recognize complex scenes and navigate environments more naturally, bringing us closer to seamless human-machine interaction.
+                    </p>
+                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                      <tbody>
+                        <tr>
+                          <td style="padding:20px;width:25%;vertical-align:middle">
+                            <div class="one">
+                              <img src='static/images/papers/web2code.png' width="175">
+                            </div>
+                          </td>
+                          <td style="padding:20px;width:75%;vertical-align:middle">
+                            <papertitle>Web2Code: A Large-scale Webpage-to-Code Dataset and Evaluation Framework for Multimodal LLMs</papertitle>
+                            <!-- <br>
+                            Sukmin Yun, Haokun Lin,
+                            <strong>Rusiru Thushara</strong>,
+                            Mohammad Qazim Bhat, Yongxin Wang, Zutao Jiang, Mingkai Deng, Jinhong Wang, Tianhua Tao, Junbo Li, Haonan Li, Preslav Nakov, Timothy Baldwin, Zhengzhong Liu, Eric P. Xing, Xiaodan Liang, Zhiqiang Shen <br>
+                            <br> -->
+                            <br> 
+                            *Sukmin Yun, *Haokun Lin, <strong>*Rusiru Thushara</strong>, *Mohammad Qazim Bhat, *Yongxin Wang, Zutao Jiang, Mingkai Deng, Jinhong Wang, Tianhua Tao, Junbo Li, Haonan Li, Preslav Nakov, Timothy Baldwin, Zhengzhong Liu, Eric P. Xing, Xiaodan Liang, Zhiqiang Shen 
+                            <br> 
+                            * Equal contribution.
+                            <br>
+                            <strong>NeurIPS 2024</strong>
+                            <br>
+                            <a href="https://arxiv.org/abs/2406.20098">Paper</a> /
+                            <a href="https://github.com/MBZUAI-LLM/web2code">Code</a> /
+                            <a href="https://mbzuai-llm.github.io/webpage2code/">Project Page</a> /
+                            <a href="https://huggingface.co/datasets/MBZUAI/Web2Code">Dataset</a>
+                            <ul>
+                              <li>
+                                <u>Description:</u> Addresses the challenge of MLLMs in understanding webpage screenshots and generating HTML code, proposing a large-scale benchmark dataset and evaluation framework. Extensive experiments show significant improvements in web-to-code generation and general visual tasks.
+                              </li>
+                              <!-- <br>
+                              <li>
+                                <u>Outcome:</u> adfsfa
+                              </li> -->
+                            </ul>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                        <tr>
+                          <td style="padding:20px;width:25%;vertical-align:middle">
+                            <div class="one">
+                              <img src='static/images/papers/pgvideollava.png' width="175">
+                            </div>
+                          </td>
+                          <td style="padding:20px;width:75%;vertical-align:middle">
+                            <papertitle>PG-Video-LLaVA: Pixel Grounding Large Video-Language Models</papertitle>
+                            <br>
+                            *Shehan Munasinghe,
+                            <strong>*Rusiru Thushara</strong>,
+                            Muhammad Maaz, Hanoona Rasheed, Salman Khan, Mubarak Shah, Fahad S. Khan
+                            <br> 
+                            * Equal contribution.
+                            <br>
+                            <!-- <strong>CVPR 2022</strong> -->
+                            <!-- <br> -->
+                            <a href="https://arxiv.org/abs/2311.13435">Paper</a> /
+                            <a href="https://github.com/mbzuai-oryx/Video-LLaVA">Code</a> /
+                            <a href="https://mbzuai-oryx.github.io/Video-LLaVA/">Project Page</a>
+                            <ul>
+                              <li>
+                                <u>Description:</u> Extends  image-based  LLMs  to  videos  understanding,  incorporating  audio  transcripts  for  enhancedcontext  understanding,  introducing  a  baseline  framework  and  benchmark  for  conversation-driven spatial grounding.
+                              </li>
+                              <br>
+                              <!-- <li>
+                                <u>Outcome:</u> Produced state-of-the-art performance in downstream tasks such as 3D object classification, few-shot object classification
+                                and 3D object part segmentation, outperforming previous unsupervised learning methods.
+                
+                              </li> -->
+                            </ul>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                        <tr>
+                          <td style="padding:10px;width:25%;vertical-align:middle">
+                            <div class="one">
+                              <img src='static/images/papers/quantification_of_cells.png' width="175">
+                            </div>
+                          </td>
+                          <td style="padding:20px;width:75%;vertical-align:middle">
+                            <papertitle>Quantification of Cells in Native Tissues with Object Detection and Weak Supervision</papertitle>
+                            <br>
+                            <strong>R. Thushara</strong>, J. Pradeepkumar, J.J. Corrigan, B.P. Engelward, and D.N. Wadduwage
+                            <br> 
+                            <br>
+                            Abstract accepted for oral presentation at the <strong>Optica Imaging Congress 2023</strong>
+                            <br>
+                            <a href="https://opg.optica.org/viewmedia.cfm?uri=ISA-2023-ITu2E.4&seq=0">Paper</a> /
+                            <a href="https://github.com/thusharakart/DATA/blob/main/Posters/FOM_poster.pdf">Poster</a> 
+                            <ul>
+                              <li>
+                                <u>Description:</u> Investigation  on  leveraging  deep  learning  approaches  for  detecting  and  quantifying  homologousrecombination events in rare fluorescent mutant cells deep within the tissue of RaDR mice Usage of deep learning architectures for object detection, classification, and segmentation.
+                              </li>
+                              <br>
+                            </ul>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                      <tr>
+                        <td style="padding:20px;width:25%;vertical-align:middle">
+                          <div class="one">
+                            <img src='static/images/papers/dyadic_interaction_detection.png' width="175">
+                          </div>
+                        </td>
+                        <td style="padding:20px;width:75%;vertical-align:middle">
+                          <papertitle>Real-Time Multiple Dyadic Interaction Detection in Surveillance Videos in the Wild</papertitle>
+                          <br>
+                          *IM Insaf, *AAP Perera,
+                          <strong>Rusiru Thushara</strong>,
+                          GMRI Godaliyadda, MPB Ekanayake, HMVR Herath, JB Ekanayake
+                          <br>
+                          <strong>ICIIS 2023</strong>
+                          <br>
+                          <a href="https://ieeexplore.ieee.org/abstract/document/10253565">Paper</a> 
+                          <ul>
+                            <li>
+                              <u>Description:</u> This paper proposes a novel computer vision-based system that identifies multiple co-occurring dyadic (two-person) interactions in a crowded scenario and classifies them into six action classes.
+                            </li>
+                            <br>
+                          </ul>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                      <tr>
+                        <td style="padding:20px;width:25%;vertical-align:middle">
+                          <div class="one">
+                            <img src='static/images/projects/swarm_robot.gif' width="175">
+                          </div>
+                        </td>
+                        <td style="padding:20px;width:75%;vertical-align:middle">
+                          <papertitle>Collision free obstacal robots for Swarm Robots Platform.</papertitle>
+                          <br>
+                          <strong>Rusiru Thushara</strong>,
+                          Dinindu Thilakarathne, Heshan Dissanayake, Isuru Navinna, Roshan Ragel
+                          <br>
+                          <a href="https://cepdnaclk.github.io/e16-3yp-obstacle-bots-for-swarm-robots/">Project Page</a> /
+                          <a href="https://github.com/cepdnaclk/e16-3yp-obstacle-bots-for-swarm-robots">Code</a> /
+                          <a href="https://cepdnaclk.github.io/e16-3yp-obstacle-bots-for-swarm-robots/#web-interface">Demo Video</a>
+                          <ul>
+                            <li>
+                              <u>Description:</u> Obstacal bot system for the existing swarm project of University of Peradeniya. This system mainly contains overhead camera setup to localize the obstacle bots. By using this system the users can place the obstacle bots in disired positions or the disired repititive paths. Then the system positions the bots in relavant places without coliding with other robots. For this we are using Partical Repulsion Theory and model the Obstacal bots as charged particals in a Electric Field.
+                            </li>
+                            <br>
+                          </ul>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- Experience Section -->
+            <hr style="border: 0; height: 2px; background-color: #ccc; width: 90%; margin: 5px auto;">
+            <table id="experience" style="width:100%; border:0; border-spacing:0; border-collapse:separate; margin:0 auto; padding: 5px;">
+              <tbody>
+                <tr>
+                  <td style="width:100%; vertical-align:middle;">
+                    <heading>Experience</heading>
+
+                    <!-- Harvard University -->
+                    <table style="width:100%; border:0; cellpadding:1; cellspacing:4;">
+                      <tr>
+                        <td valign="top" style="width:10%; padding-right: 15px;">
+                          <img height="56" border="0" src="static/images/harvard_logo.svg" alt="Harvard Logo">
+                        </td>
+                        <td valign="top" style="width:90%;">
+                          <span class="h1"><b>Harvard University, USA</b></span>
+                          <br><em>Research Fellow</em><br>
+                          Aug 2022 - Dec 2023
+                        </td>
+                      </tr>
+                    </table>
+                    <br>
+
+                    <!-- University of North Florida -->
+                    <table style="width:100%; border:0; cellpadding:1; cellspacing:4;">
+                      <tr>
+                        <td valign="top" style="width:10%; padding-right: 15px;">
+                          <img height="56" border="0" src="static/images/unf_logo.png" alt="UNF Logo">
+                        </td>
+                        <td valign="top" style="width:90%;">
+                          <span class="h1"><b>University of North Florida, USA</b></span>
+                          <br><em>External Research Intern</em><br>
+                          Jan 2022 - Jul 2022
+                        </td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- Education Section -->
+            <hr style="border: 0; height: 2px; background-color: #ccc; width: 90%; margin: 5px auto;">
+            <table id="education" style="width:100%; border:0; border-spacing:0; border-collapse:separate; margin:0 auto; padding: 5px;">
+              <tbody>
+                <tr>
+                  <td style="width:100%; vertical-align:middle;">
+                    <heading>Education</heading>
+
+                    <!-- MBZUAI -->
+                    <table style="width:100%; border:0; cellpadding:1; cellspacing:4;">
+                      <tr>
+                        <td valign="top" style="width:10%; padding-right: 15px;">
+                          <img height="60" border="0" src="static/images/mbzuai_logo.png" alt="MBZUAI Logo">
+                        </td>
+                        <td valign="top" style="width:90%;">
+                          <span class="h1"><b>Mohamed Bin Zayed University of Artificial Intelligence, Abu Dhabi, UAE</b></span>
+                          <br><em>Master of Science in Computer Vision</em><br>
+                          Aug 2023 - Present
+                        </td>
+                      </tr>
+                    </table>
+                    <br>
+
+                    <!-- University of Peradeniya -->
+                    <table style="width:100%; border:0; cellpadding:1; cellspacing:4;">
+                      <tr>
+                        <td valign="top" style="width:10%; padding-right: 15px;">
+                          <img height="100" border="0" src="static/images/uop_logo.png" alt="UoP Logo">
+                        </td>
+                        <td valign="top" style="width:90%;">
+                          <span class="h1"><b>University of Peradeniya, Sri Lanka</b></span>
+                          <br><em>Bachelor of Science (Engineering) specialized in Computer Engineering</em><br>
+                          Nov 2017 - Feb 2023
+                        </td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+
+            <!-- Footer -->
+            <div style="width:100%; background:#f8f8f8; border-top:1px solid #ccc; padding:20px 0; text-align:center; margin-top:20px;">
+                <table style="width:90%; margin:auto;">
+                  <tr>
+                    <td style="padding:10px;">
+                      <a href="mailto:thusharakart@gmail.com">Email</a> |
+                      <a href="https://thusharakart.github.io/resume/cv.pdf">CV</a> |
+                      <a href="https://scholar.google.com/citations?user=rWAVq90AAAAJ&hl=en">Google Scholar</a> |
+                      <a href="https://www.linkedin.com/in/rusiru-thushara">LinkedIn</a> |
+                      <a href="https://github.com/thusharakart">GitHub</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding:10px;">
+                      © 2024 Rusiru Thushara. All Rights Reserved.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding:10px;">
+                      Website layout inspired by <a href="https://jonbarron.info/" target="_blank">John Barron's website</a>.
+                    </td>
+                  </tr>
+                </table>
+            </div>
+            
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
