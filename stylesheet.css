@@ -66,7 +66,7 @@
 .navbar {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   background: #f1f1ee;
   border-bottom: 1px solid #ddddd8;
   padding: 10px 0;
@@ -77,7 +77,7 @@
 
 
 .navbar table {
-  width: 100%;
+  width: 100vw;
   max-width: 800px;
   margin: auto;
 }
@@ -201,7 +201,7 @@ p#namechange:hover span#b {
 }
 
 .canvas-container {
-  width: 100%;
+  width: 100vw;
   height: 40vh;
 }
 
@@ -242,9 +242,22 @@ p#namechange:hover span#b {
   color: #42489f;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 200px) {
+  .navbar td {
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .navbar{
+    max-width: cal(100vw + 10px);
+  }
   .navbar td {
     padding: 5px;
+  }
+
+  .navbar a {
     font-size: 12px;
   }
 

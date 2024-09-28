@@ -9,8 +9,9 @@ body {
 	padding-top: 70px;
 	margin: 0;
 	font-family: "Inconsolata";
-	height: 100%
-	background:white;
+	height: 100%;
+	background: white;
+	width: 90%;
 }
 
 h1 {
