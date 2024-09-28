@@ -251,7 +251,7 @@ p#namechange:hover span#b {
 
 @media screen and (max-width: 600px) {
   .navbar{
-    max-width: cal(100vw + 10px);
+    max-width: cal(100vw + 5px);
   }
   .navbar td {
     padding: 5px;
