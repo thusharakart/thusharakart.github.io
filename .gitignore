@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Build output
+dist/
+build/
+
+# Markdown editor backups
+*.md~
+
+# HTML, CSS, JS minified files (optional)
+*.min.*
+
+# IDE specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Git specific files
+.git/
