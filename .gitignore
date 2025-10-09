@@ -30,3 +30,12 @@ build/
 
 # Git specific files
 .git/
+
+# Ignore common system files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+dist/
+build/
