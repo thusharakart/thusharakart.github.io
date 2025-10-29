@@ -39,3 +39,8 @@ Thumbs.db
 *.swp
 dist/
 build/
+
+#system files
+*.DS_Store
+*.AppleDouble
+.LSOverride
